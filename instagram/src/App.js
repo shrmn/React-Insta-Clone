@@ -35,4 +35,3 @@ dummyData.propTypes = {
 }
 
 export default App;
-
