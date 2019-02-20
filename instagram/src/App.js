@@ -17,13 +17,10 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>Hipstamatic</h1>
-        {this.state.posts.map((post, index) => (
-          <PostContainer
-          key={index}
-          post={post}
+        <h1>Hipstamatic</h1>        
+          <PostContainer      
+          posts={this.state.posts}
           />
-        ))}
       </div>
     );
   }  
